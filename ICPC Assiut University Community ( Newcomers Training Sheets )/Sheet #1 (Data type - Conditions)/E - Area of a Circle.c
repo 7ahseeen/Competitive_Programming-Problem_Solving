@@ -2,10 +2,10 @@
 #include <math.h>
  
 int main() {
-    const double PI = 3.141592653;
-    double r, area;
-    scanf("%lf",&r);
+    const float PI = 3.141592653;
+    float r, area;
+    scanf("%f",&r);
     area = PI * r *r;
-    printf("%.9lf", area);
+    printf("%.9f", area);
     return 0;
 }
